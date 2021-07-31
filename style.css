@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+body{
+    background-image: -webkit-linear-gradient(right,#e55d87,#5fc3e4);
+}
+h1{
+    text-align: center;
+    color:black;
+    font-size:50px;
+    font-family: 'PT Sans', sans-serif;
+}
+.nav{
+    background: rgb(17, 17, 17);
+    height: 40px;
+    border-color: black;
+    color:white;
+    text-align:center;
+}
+.nav ul li{
+    display: inline;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+    padding: 10px;
+}
+li a:active{
+    color:greenyellow;
+}
+li a:hover{
+    color:rgb(251, 255, 0);
+}
+.main img{
+    height:250px;
+    width:250px;
+    border-radius: 50%;
+    position:relative;
+    top:25%;
+    left:40%;
+}
+.main p{
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size:40px;
+}
+.name{
+    animation-name: colorchange;
+    animation-duration: 10s;
+}
+@keyframes colorchange{
+    0%{
+        color: red;
+    }
+    25%{
+        color: rgb(47, 255, 151);
+    }
+    50%{
+        color:#f4ff61;
+    }
+    100%{
+        color:#ffa551;
+    }
+}
+.set p{
+    text-align: left;
+}
+.container {
+  width: 100%; 
+  background-color: #ddd; 
+}
+
+.skills {
+  text-align: right;
+  padding-top: 5px; 
+  padding-bottom: 5px; 
+  color: white; 
+}
+
+.html {width: 90%; background-color: #04AA6D;} 
+.css {width: 80%; background-color: #2196F3;} 
+.python {width: 65%; background-color: #f44336;} 
+.c{width: 60%; background-color: #808080;} 
+
+.call{
+    height: 250px;
+    width: 250px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); 
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
